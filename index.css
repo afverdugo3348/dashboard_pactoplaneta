@@ -4,7 +4,7 @@ section{
 	justify-content: space-between;
 }
 .contenedor{
-	max-width: 1200px;
+	max-width: 1350px;
 	max-height: 900px;
 	margin: 0 auto;
 }
@@ -70,7 +70,7 @@ position: absolute;
 	position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size:10px;
+    font-size:13px;
     left: -25%;
     top: 200%;
 }
@@ -101,7 +101,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size:10px;
+    font-size:13px;
     left: -63%;
     top: 137%;
 }
@@ -132,7 +132,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size:10px;
+    font-size:13px;
     left: -15%;
     top: 130%;
 }
@@ -163,7 +163,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size:10px;
+    font-size:13px;
     left: -15%;
     top: 106%;
 }
@@ -194,7 +194,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size:10px;
+    font-size:13px;
     left: 0%;
     top: 130%;
 }
@@ -225,7 +225,7 @@ position: absolute;
 	    position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size:10px;
+    font-size:13px;
     left: -25%;
     top: 200%;
 }
@@ -273,7 +273,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size:10px;
+    font-size:13px;
     left: -38%;
     top: 110%;
 }
@@ -304,7 +304,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size:10px;
+    font-size:13px;
     left: 10%;
     top: 104%;
 }
@@ -335,7 +335,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size:10px;
+    font-size:13px;
     left: -64%;
     top: 130%;
 }
@@ -366,7 +366,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size:10px;
+    font-size:13px;
     left: -44%;
     top: 130%;
 }
@@ -397,7 +397,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size:10px;
+    font-size:13px;
     left: 14%;
     top: 130%;
 }
@@ -412,7 +412,8 @@ position: absolute;
 /*FOTOS*/
 .sumando{
 	color: rgb(45,76,156);
-    font-family: 'Ubuntu';
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
     font-size: 500%;
     display: inline-block;
     text-decoration: underline;
@@ -420,19 +421,22 @@ position: absolute;
 }
 .voluntades{
 	color: rgb(45,76,156);
-    font-family: 'Ubuntu';
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
     font-size: 500%;
     display: inline-block;
 }
 .mas{
 	color: rgb(228,180,43);
-    font-family: 'Ubuntu';
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
     font-size: 500%;
     display: inline-block;
 }
 .ciudad{
 		color: rgb(194,72,36);
-    font-family: 'Ubuntu';
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
     font-size: 500%;
     display: inline-block;
 }
@@ -490,7 +494,7 @@ position: absolute;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items3 center;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -498,7 +502,8 @@ position: absolute;
 .avance_letra{
     color: rgb(194,72,36);
     position: relative;
-    font-family: 'Ubuntu';
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
     font-size: 30px;
     margin: 0px auto;
     width: 100%;
@@ -515,7 +520,8 @@ position: absolute;
 .barra h1{
     border-right: 3px solid rgb(228,180,43);
     float: right;
-    font-family: 'Ubuntu';
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
     font-size: 40px;
     width: 100%;
     left: 0;
@@ -537,14 +543,16 @@ position: absolute;
     position: absolute;
 }
 #voluntarios h1{
-    font-family: 'Ubuntu';
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
     position: absolute;
     font-size: 70px;
     color: rgb(59,77,153);
     margin: 12% 0 0 0;
 }
 #voluntarios h2{
-	font-family: 'Ubuntu';
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: normal;
     font-size: 25px;
     color: rgb(194,72,36);
     display: block;
