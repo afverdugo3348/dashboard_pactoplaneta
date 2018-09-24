@@ -437,9 +437,9 @@ position: absolute;
     display: inline-block;
 }
 .title{
-	width: 80%;
-	float: right;
-	margin-bottom: 100px;
+    width: 80%;
+    margin-bottom: 0;
+    margin-left: 124px;
 }
 .first, .second{
 	    display: flex;
