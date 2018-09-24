@@ -120,7 +120,7 @@
 				<h1 class="sumando">Sumando</h1><h1 class="voluntades"> voluntades</h1>	
 			</div>
 			<div class="second">
-				<h1 class="mas">+</h1>
+				<h1 class="mas" id="mas">+</h1>
 				<h1 class="ciudad">MEDELLÍN</h1>	
 			</div>
 		</div>
@@ -156,7 +156,35 @@
 </section>
 <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 <script type="text/javascript">
-
+	var mas = document.getElementById('mas');
+	var font1 = '500%';
+	var font2 = '700%';
+	var i = 0;
+	var j = 0;
+	setInterval(function(){
+		if(i ==0 ){
+			mas.style.fontSize =font2;
+			mas.style.lineHeight = '0.8';
+			i = 1;
+		}
+		else{
+			mas.style.fontSize =font1;
+			mas.style.lineHeight = '1.2';
+			i =0 ;
+		}
+		
+	},1000);
+	setInterval(function(){
+		var d1 = document.getElementById('medellin');
+		if(j ==0 ){
+			d1.style.top = '21%'
+			j = 1;
+		}
+		else{
+			d1.style.top = '22%'
+			j =0 ;
+		}
+	},300);
 </script>
 </body>
 </html>

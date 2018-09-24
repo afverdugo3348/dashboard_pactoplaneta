@@ -209,6 +209,7 @@ position: absolute;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    transition: 0.5s;
 }
 .circulo_medellin{
     background-image: url(./images/circulo.png);
@@ -432,6 +433,8 @@ position: absolute;
     font-weight: normal;
     font-size: 500%;
     display: inline-block;
+    transition: 0.5s;
+    line-height: 1.2;
 }
 .ciudad{
 		color: rgb(194,72,36);
