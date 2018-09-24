@@ -28,7 +28,7 @@ section{
 .percent{
     color: white;
     position: absolute;
-    font-size: 80%;
+    font-size: 10px;
     font-family: 'Ubuntu', sans-serif;
     margin: 5px;
     top: 0;
@@ -67,10 +67,10 @@ position: absolute;
     left: -35%;
 }
 .title_bogota{
-	    position: absolute;
+	position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size: 100%;
+    font-size:10px;
     left: -25%;
     top: 200%;
 }
@@ -101,7 +101,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size: 100%;
+    font-size:10px;
     left: -63%;
     top: 137%;
 }
@@ -132,7 +132,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size: 100%;
+    font-size:10px;
     left: -15%;
     top: 130%;
 }
@@ -163,7 +163,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size: 100%;
+    font-size:10px;
     left: -15%;
     top: 106%;
 }
@@ -194,7 +194,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size: 100%;
+    font-size:10px;
     left: 0%;
     top: 130%;
 }
@@ -225,7 +225,7 @@ position: absolute;
 	    position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size: 100%;
+    font-size:10px;
     left: -25%;
     top: 200%;
 }
@@ -273,7 +273,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size: 100%;
+    font-size:10px;
     left: -38%;
     top: 110%;
 }
@@ -304,7 +304,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size: 100%;
+    font-size:10px;
     left: 10%;
     top: 104%;
 }
@@ -335,7 +335,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size: 100%;
+    font-size:10px;
     left: -64%;
     top: 130%;
 }
@@ -366,7 +366,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size: 100%;
+    font-size:10px;
     left: -44%;
     top: 130%;
 }
@@ -397,7 +397,7 @@ position: absolute;
     position: absolute;
     color: rgb(59,77,153);
     font-family: 'Ubuntu';
-    font-size: 100%;
+    font-size:10px;
     left: 14%;
     top: 130%;
 }
@@ -463,8 +463,8 @@ position: absolute;
     align-items: center;
 }
 #fotos img{
-    margin: 20px;
-    width: 435px;
+	margin: 20px;
+    width: 300px;
 }
 .numeros{
 	display: flex;
@@ -473,7 +473,7 @@ position: absolute;
 #avance{
     width: 80px;
     height: 300px;
-    margin: 20px auto 80px 0;
+    margin: 60px auto 20px 0;
     position: relative;
 }
 .falta{
@@ -532,7 +532,7 @@ position: absolute;
     position: relative;
 }
 #voluntarios img{
-	width: 90%;
+    width: 70%;
     margin-left: 10%;
     position: absolute;
 }
@@ -545,11 +545,11 @@ position: absolute;
 }
 #voluntarios h2{
 	font-family: 'Ubuntu';
-    font-size: 35px;
+    font-size: 25px;
     color: rgb(194,72,36);
     display: block;
     margin-top: 110px;
-    left: -28px;
+    left: -7px;
     position: absolute;
 }
 @media screen and (min-width: 2200px){
