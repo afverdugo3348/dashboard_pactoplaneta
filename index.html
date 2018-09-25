@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="Expires" content="0"> 
+	<meta http-equiv="Last-Modified" content="0"> 
+	<meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+	<meta http-equiv="Pragma" content="no-cache">
 	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
@@ -30,7 +34,7 @@
 			<h2 class="title_bucaramanga">Bucaramanga</h2>
 			<div id="d3" class="cono">
 				<img src="./images/cono.png">
-				<h1 id="percent_1" class="percent">80%</h1>
+				<h1 id="percent_3" class="percent">80%</h1>
 			</div>
 		</div>
 		<div id="cucuta">
@@ -38,7 +42,7 @@
 			<h2 class="title_cucuta">Cúcuta</h2>
 			<div id="d4" class="cono">
 				<img src="./images/cono.png">
-				<h1 id="percent_1" class="percent">80%</h1>
+				<h1 id="percent_4" class="percent">80%</h1>
 			</div>
 		</div>
 		<div id="ibague">
@@ -46,7 +50,7 @@
 			<h2 class="title_ibague">Ibagué</h2>
 			<div id="d5" class="cono">
 				<img src="./images/cono.png">
-				<h1 id="percent_1" class="percent">80%</h1>
+				<h1 id="percent_5" class="percent">80%</h1>
 			</div>
 		</div>
 		<div id="neiva">
@@ -54,7 +58,7 @@
 			<h2 class="title_neiva">Neiva</h2>
 			<div id="d6" class="cono">
 				<img src="./images/cono.png">
-				<h1 id="percent_1" class="percent">80%</h1>
+				<h1 id="percent_6" class="percent">80%</h1>
 			</div>
 		</div>
 		<div id="medellin">
@@ -62,15 +66,15 @@
 			<h2 class="title_medellin">Medellín</h2>
 			<div id="d7" class="cono">
 				<img src="./images/cono.png">
-				<h1 id="percent_1" class="percent">80%</h1>
+				<h1 id="percent_7" class="percent">80%</h1>
 			</div>
 			<div id="d8" class="cono">
 				<img src="./images/cono.png">
-				<h1 id="percent_2" class="percent">80%</h1>
+				<h1 id="percent_8" class="percent">80%</h1>
 			</div>
 			<div id="d9" class="cono">
 				<img src="./images/cono.png">
-				<h1 id="percent_2" class="percent">80%</h1>
+				<h1 id="percent_9" class="percent">80%</h1>
 			</div>
 		</div>
 		<div id="manizales">
@@ -78,7 +82,7 @@
 			<h2 class="title_manizales">Manizales</h2>
 			<div id="d10" class="cono">
 				<img src="./images/cono.png">
-				<h1 id="percent_1" class="percent">80%</h1>
+				<h1 id="percent_10" class="percent">80%</h1>
 			</div>
 		</div>
 		<div id="pereira">
@@ -86,7 +90,7 @@
 			<h2 class="title_pereira">Pereira</h2>
 			<div id="d11" class="cono">
 				<img src="./images/cono.png">
-				<h1 id="percent_1" class="percent">80%</h1>
+				<h1 id="percent_11" class="percent">80%</h1>
 			</div>
 		</div>
 		<div id="barranquilla">
@@ -94,7 +98,7 @@
 			<h2 class="title_barranquilla">Barranquilla</h2>
 			<div id="d12" class="cono">
 				<img src="./images/cono.png">
-				<h1 id="percent_1" class="percent">80%</h1>
+				<h1 id="percent_12" class="percent">80%</h1>
 			</div>
 		</div>
 		<div id="cartagena">
@@ -102,7 +106,7 @@
 			<h2 class="title_cartagena">Cartagena</h2>
 			<div id="d13" class="cono">
 				<img src="./images/cono.png">
-				<h1 id="percent_1" class="percent">80%</h1>
+				<h1 id="percent_13" class="percent">80%</h1>
 			</div>
 		</div>
 		<div id="cali">
@@ -110,7 +114,7 @@
 			<h2 class="title_cali">Cali</h2>
 			<div id="d14" class="cono">
 				<img src="./images/cono.png">
-				<h1 id="percent_1" class="percent">80%</h1>
+				<h1 id="percent_14" class="percent">80%</h1>
 			</div>
 		</div>
 	</article>
@@ -121,13 +125,13 @@
 			</div>
 			<div class="second">
 				<h1 class="mas" id="mas">+</h1>
-				<h1 class="ciudad">MEDELLÍN</h1>	
+				<h1 class="ciudad" id="ciudad">MEDELLÍN</h1>	
 			</div>
 		</div>
 		<div class="estadisticas">
 			<div id="fotos">
-				<img src="./images/medellin/1.jpg">
-				<img src="./images/medellin/2.jpg">
+				<img src="./images/1/1.jpg" id="foto_1">
+				<img src="./images/1/2.jpg" id="foto_2">
 			</div>
 			<div  class="numeros">
 				<div id="avance">
@@ -139,15 +143,15 @@
 						<h1 class="avance_letra">C</h1>
 						<h1 class="avance_letra">E</h1>
 					</div>
-					<div class="falta"></div>
-					<div class="hecho"></div>
-					<div class="barra">
-						<h1>80%</h1>
+					<div class="falta" id="falta"></div>
+					<div class="hecho" id="hecho"></div>
+					<div class="barra" id="barra">
+						<h1 id="porcentaje_avance">80%</h1>
 					</div>
 				</div>
 				<div id="voluntarios">
 					<img src="./images/voluntarios.png">
-					<h1>203</h1>
+					<h1 id="voluntarios_text">203</h1>
 					<h2>Voluntarios</h2>
 				</div>	
 			</div>
@@ -156,6 +160,28 @@
 </section>
 <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 <script type="text/javascript">
+	var sede = 1;
+	var intervalo_mapa;
+	setInterval(function(){
+		$(function() 
+	  	{
+	  		$.ajaxSetup({ cache: false });
+	         //var TXT_URL = 'https://www.mozilla.org/media/MPL/2.0/index.815ca599c9df.txt';
+	         var TXT_URL = 'https://afverdugo3348.github.io/dashboard_pactoplaneta/datos.txt';
+	        $.ajax({
+	          url: TXT_URL,
+	        }).then(function(data) {
+	        	console.log(data);
+	        	clearIntervals();
+	          leerMapa(data);
+	          sede++;
+	          if(sede == 15){
+	          	sede = 1;
+	          }
+	        });
+	  }); 
+	},10300);
+	
 	var mas = document.getElementById('mas');
 	var font1 = '500%';
 	var font2 = '700%';
@@ -174,17 +200,58 @@
 		}
 		
 	},600);
-	setInterval(function(){
-		var d1 = document.getElementById('medellin');
-		if(j ==0 ){
-			d1.style.top = '21%'
-			j = 1;
+	function animarMapa(ciudad){
+		intervalo_mapa = setInterval(function(){
+			var d1 = document.getElementById(ciudad);
+			var top = window.getComputedStyle(d1, null).getPropertyValue("top");
+			var topi =parseFloat(top.substring(0,top.length-2));
+			if(j ==0 ){
+				d1.style.top = (topi-10)+'px';
+				j = 1;
+			}
+			else{
+				d1.style.top = (topi+10)+'px';
+				j =0 ;
+			}
+		},300);
+	}
+	function clearIntervals(){
+		clearInterval(intervalo_mapa);
+	}
+	function leerMapa(data){
+		var datos = data.split('\n');
+		for(var i = 0; i < datos.length; i++) {
+			var datSed = datos[i].split(':');
+			console.log(datSed);
+			var porcVolun = datSed[1].split(',');
+			var porc = porcVolun[0].trim();
+			var volun = porcVolun[1].trim();
+			var a = document.getElementById('percent_'+(i+1));
+			a.innerHTML = porc;
+			//COLOCAR NUMERO EN LA BARRA AVANCE, TITULO, VOLUNTARIOS
+			if(sede == (i+1)){
+				var barraNum = document.getElementById('porcentaje_avance');
+				var barra = document.getElementById('barra');
+				var falta = document.getElementById('falta');
+				var hecho = document.getElementById('hecho');
+				var ciudad = datos[i].split('-')[0].toUpperCase();
+				var ciudadH = document.getElementById('ciudad');
+				var volun_text = document.getElementById('voluntarios_text');
+				var foto1 = document.getElementById('foto_1');
+				var foto2 = document.getElementById('foto_2');
+				barraNum.innerHTML = porc;
+				var porcen = parseInt(porc);
+				falta.style.height = 100-porcen+'%';
+				hecho.style.height = porc;
+				barra.style.top = 100-porcen+'%';
+				ciudadH.innerHTML = ciudad;
+				volun_text.innerHTML= volun;
+				foto1.src = 'https://afverdugo3348.github.io/dashboard_pactoplaneta/'+sede+"/1.jpg";
+				foto2.src = 'https://afverdugo3348.github.io/dashboard_pactoplaneta/'+sede+"/2.jpg";
+				animarMapa(ciudad.toLowerCase());
+			}	
 		}
-		else{
-			d1.style.top = '22%'
-			j =0 ;
-		}
-	},300);
+	}
 </script>
 </body>
 </html>

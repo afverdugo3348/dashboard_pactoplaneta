@@ -54,6 +54,7 @@ position: absolute;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    transition: 0.5s;
 }
 .circulo_bogota{
     background-image: url(./images/circulo.png);
@@ -85,6 +86,7 @@ position: absolute;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    transition: 0.5s;
 }
 .circulo_bucaramanga{
     background-image: url(./images/circulo.png);
@@ -116,6 +118,7 @@ position: absolute;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    transition: 0.5s;
 }
 .circulo_cucuta{
     background-image: url(./images/circulo.png);
@@ -147,6 +150,7 @@ position: absolute;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    transition: 0.5s;
 }
 .circulo_ibague{
     background-image: url(./images/circulo.png);
@@ -178,6 +182,7 @@ position: absolute;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    transition: 0.5s;
 }
 .circulo_neiva{
     background-image: url(./images/circulo.png);
@@ -232,6 +237,7 @@ position: absolute;
 }
 #d8 h1{
 	left: 52%;
+	top: 47px !important;
 }
 #d8 img{
 	left: 45%;
@@ -258,6 +264,7 @@ position: absolute;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    transition: 0.5s;
 }
 .circulo_manizales{
     background-image: url(./images/circulo.png);
@@ -289,6 +296,7 @@ position: absolute;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    transition: 0.5s;
 }
 .circulo_pereira{
     background-image: url(./images/circulo.png);
@@ -320,6 +328,7 @@ position: absolute;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    transition: 0.5s;
 }
 .circulo_barranquilla{
     background-image: url(./images/circulo.png);
@@ -351,6 +360,7 @@ position: absolute;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    transition: 0.5s;
 }
 .circulo_cartagena{
     background-image: url(./images/circulo.png);
@@ -382,6 +392,7 @@ position: absolute;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    transition: 0.5s;
 }
 .circulo_cali{
     background-image: url(./images/circulo.png);
@@ -472,6 +483,7 @@ position: absolute;
 #fotos img{
 	margin: 20px;
     width: 300px;
+        max-height: 300px;
 }
 .numeros{
 	display: flex;
