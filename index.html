@@ -17,6 +17,9 @@
 		<div id="mapa">
 			<img src="./images/mapa_colombia.png" class="mapa_img">
 		</div>
+		<div id="colegio">
+			<img src="" id="colegio_img">
+		</div>
 		<div id="bogota">
 			<div class="circulo_bogota"></div>
 			<h2 class="title_bogota">Bogotá</h2>
@@ -162,6 +165,17 @@
 <script type="text/javascript">
 	var sede = 1;
 	var intervalo_mapa;
+	var TXT_URL = 'https://afverdugo3348.github.io/dashboard_pactoplaneta/datos.txt';
+	        $.ajax({
+	          url: TXT_URL,
+	        }).then(function(data) {
+	        	clearIntervals();
+	          leerMapa(data);
+	          sede++;
+	          if(sede == 15){
+	          	sede = 1;
+	          }
+	        });
 	setInterval(function(){
 		$(function() 
 	  	{
@@ -171,7 +185,6 @@
 	        $.ajax({
 	          url: TXT_URL,
 	        }).then(function(data) {
-	        	console.log(data);
 	        	clearIntervals();
 	          leerMapa(data);
 	          sede++;
@@ -204,13 +217,15 @@
 		intervalo_mapa = setInterval(function(){
 			var d1 = document.getElementById(ciudad);
 			var top = window.getComputedStyle(d1, null).getPropertyValue("top");
+			console.log(top);
 			var topi =parseFloat(top.substring(0,top.length-2));
+			console.log(topi);
 			if(j ==0 ){
-				d1.style.top = (topi-10)+'px';
+				d1.style.top = (topi-5)+'px';
 				j = 1;
 			}
 			else{
-				d1.style.top = (topi+10)+'px';
+				d1.style.top = (topi+5)+'px';
 				j =0 ;
 			}
 		},300);
@@ -222,7 +237,6 @@
 		var datos = data.split('\n');
 		for(var i = 0; i < datos.length; i++) {
 			var datSed = datos[i].split(':');
-			console.log(datSed);
 			var porcVolun = datSed[1].split(',');
 			var porc = porcVolun[0].trim();
 			var volun = porcVolun[1].trim();
@@ -239,6 +253,7 @@
 				var volun_text = document.getElementById('voluntarios_text');
 				var foto1 = document.getElementById('foto_1');
 				var foto2 = document.getElementById('foto_2');
+				var cole_img = document.getElementById('colegio_img');
 				barraNum.innerHTML = porc;
 				var porcen = parseInt(porc);
 				falta.style.height = 100-porcen+'%';
@@ -248,6 +263,7 @@
 				volun_text.innerHTML= volun;
 				foto1.src = 'https://afverdugo3348.github.io/dashboard_pactoplaneta/'+sede+"/1.jpg";
 				foto2.src = 'https://afverdugo3348.github.io/dashboard_pactoplaneta/'+sede+"/2.jpg";
+				cole_img.src = 'https://afverdugo3348.github.io/dashboard_pactoplaneta/'+sede+"/"+sede+"c.png";
 				animarMapa(ciudad.toLowerCase());
 			}	
 		}

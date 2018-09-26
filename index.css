@@ -11,6 +11,11 @@ section{
 #mapa{
 	z-index: -1;
 }
+#colegio_img{
+	position: absolute;
+    width: 150px;
+    top: 0;
+}
 .first-half, .second-half{
 	    width: 50%;
     height: 90%;
