@@ -1,14 +1,14 @@
-Bogota-IED Colegio Kennedy Sede Heroes:10%,500
-Bogota-IED Colegio Kennedy Sede Rosa Maria Gordillo:10%,500
-Bucaramanga-IE Maria Gorettu sede B:15%,500
-Cucuta-IE Eustorgio Colmenares Baptista:10%,70
-Ibague-IE La Sagrada Familia Sede Versalles:10%,80
-Neiva-IE CEINAR Sede Renaciendo:15%,20
-Medellin-IE La libertad:10%,186
-Medellin-IE Benjamin Herrera:10%,211
-Medellin-IE Gente Unida Sede Luz de Oriente:15%,205
-Manizales-IE Serafico San Antonio de Padua:10%,190
-Pereira-IE COMBIA SEDE EL PLACER:10%,185
-Barranquilla-IE CRUZADA SOCIAL:10%,180
-Cartagena-INSTITUCION EDUCATIVA TECNICA DE PASACABALLOS:15%,155
-Cali-IE CELMIRA BUENO DE OREJUELA SEDE MARIANO OSPINA:15%,105
+Bogota-IED Colegio Kennedy Sede Heroes:70%,115
+Bogota-IED Colegio Kennedy Sede Rosa Maria Gordillo:0%,115
+Bucaramanga-IE Maria Gorettu sede B:5%,135
+Cucuta-IE Eustorgio Colmenares Baptista:2%,70
+Ibague-IE La Sagrada Familia Sede Versalles:3%,80
+Neiva-IE CEINAR Sede Renaciendo:4%,20
+Medellin-IE La libertad:6%,86
+Medellin-IE Benjamin Herrera:7%,211
+Medellin-IE Gente Unida Sede Luz de Oriente:19%,205
+Manizales-IE Serafico San Antonio de Padua:17%,90
+Pereira-IE COMBIA SEDE EL PLACER:20%,85
+Barranquilla-IE CRUZADA SOCIAL:12%,80
+Cartagena-INSTITUCION EDUCATIVA TECNICA DE PASACABALLOS:13%,55
+Cali-IE CELMIRA BUENO DE OREJUELA SEDE MARIANO OSPINA:25%,105
