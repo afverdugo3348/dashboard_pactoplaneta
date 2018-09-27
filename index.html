@@ -217,9 +217,7 @@
 		intervalo_mapa = setInterval(function(){
 			var d1 = document.getElementById(ciudad);
 			var top = window.getComputedStyle(d1, null).getPropertyValue("top");
-			console.log(top);
 			var topi =parseFloat(top.substring(0,top.length-2));
-			console.log(topi);
 			if(j ==0 ){
 				d1.style.top = (topi-5)+'px';
 				j = 1;
