@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Expires" content="0"> 
+	<meta http-equiv="Expires" content="-1"> 
 	<meta http-equiv="Last-Modified" content="0"> 
 	<meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
 	<meta http-equiv="Pragma" content="no-cache">
@@ -193,6 +193,7 @@
 	          leerMapa(data);
 	          sede++;
 	          if(sede == 15){
+			  sleep(9000);
 	          	 window.location="https://afverdugo3348.github.io/dashboard_pactoplaneta/index.html?nocache=" + (new Date()).getTime();
 	          }
 	        });
@@ -285,6 +286,14 @@
 			}
 		},300);
 	}
+	function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
 </script>
 </body>
 </html>
