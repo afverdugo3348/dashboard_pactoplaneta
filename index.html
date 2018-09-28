@@ -156,6 +156,7 @@
 				</div>
 				<div id="voluntarios">
 					<img src="./images/voluntarios.png">
+					<img src="./images/munecos.png" id="munecos">
 					<h1 id="voluntarios_text">203</h1>
 					<h2>Voluntarios</h2>
 				</div>	
@@ -167,6 +168,7 @@
 <script type="text/javascript">
 	var sede = 1;
 	var intervalo_mapa;
+	var intervalo_muneco;
 	var TXT_URL = 'https://afverdugo3348.github.io/dashboard_pactoplaneta/datos.txt';
 	        $.ajax({
 	          url: TXT_URL,
@@ -202,6 +204,8 @@
 	var font2 = '700%';
 	var i = 0;
 	var j = 0;
+	var k = 0;
+	animarMunecos();
 	setInterval(function(){
 		if(i ==0 ){
 			mas.style.fontSize =font2;
@@ -267,6 +271,19 @@
 				animarMapa(ciudad.toLowerCase());
 			}	
 		}
+	}
+	function animarMunecos(){
+		var intervalo_muneco = setInterval(function(){
+			var m = document.getElementById('munecos');
+			if(k ==0 ){
+				m.style.top = '40px';
+				k = 1;
+			}
+			else{
+				m.style.top = '48px';
+				k =0 ;
+			}
+		},300);
 	}
 </script>
 </body>
