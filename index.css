@@ -12,9 +12,10 @@ section{
 	z-index: -1;
 }
 #colegio_img{
-	position: absolute;
-    width: 339px;
+    position: absolute;
+    width: 371px;
     top: 0;
+    height: 580px;
 }
 .first-half, .second-half{
 	    width: 50%;
@@ -480,6 +481,7 @@ position: absolute;
     align-items: center;
 }
 #fotos{
+	position: relative;
 	display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -514,7 +516,7 @@ position: absolute;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items3 center;
+    align-items: center;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -579,6 +581,21 @@ position: absolute;
     margin-top: 110px;
     left: -7px;
     position: absolute;
+}
+#ojos{
+	position: absolute;
+    width: auto !important;
+    top: -35px;
+    left: -12px;
+}
+#ojos_title{
+		color: rgb(45,76,156);
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    position: absolute;
+    top: -35px;
+        margin: 11px;
 }
 @media screen and (min-width: 2200px){
 	.percent{
